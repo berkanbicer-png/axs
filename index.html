@@ -1,47 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<!doctype html><html translate="no" class="notranslate"><head><meta charset="utf-8"/><meta http-equiv="cache-control" content="no-cache"/><meta http-equiv="cache-control" content="no-store"/><link rel="preconnect" href="https://storage.e.jimdo.com/" crossorigin/><link rel="preconnect" href="https://static-assets.jimstatic.com/cms/" crossorigin/><link rel="preconnect" href="https://account.e.jimdo.com/" crossorigin/><link rel="preconnect" href="https://app.launchdarkly.com" crossorigin/><link rel="preconnect" href="https://jimdobeta.zendesk.com" crossorigin/><link rel="preconnect" href="https://assets.zendesk.com" crossorigin/><link rel="preconnect" href="https://fonts.jimstatic.com" crossorigin/><link rel="preconnect" href="https://webteam.jimstatic.com" crossorigin/><link rel="preload" href="https://webteam.jimstatic.com/fonts/fonts/euclidcircular/regular.woff2" as="font" crossorigin/><link rel="preload" href="https://webteam.jimstatic.com/fonts/fonts/euclidcircular/medium.woff2" as="font" crossorigin/><link rel="preload" href="https://webteam.jimstatic.com/fonts/fonts/euclidcircular/bold.woff2" as="font" crossorigin/><link rel="stylesheet" href="https://webteam.jimstatic.com/fonts/common/euclidcircular-regular.css"/><link rel="stylesheet" href="https://webteam.jimstatic.com/fonts/common/euclidcircular-medium.css"/><link rel="stylesheet" href="https://webteam.jimstatic.com/fonts/common/euclidcircular-bold.css"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="format-detection" content="telephone=no"/><meta name="apple-mobile-web-app-title" content="JimdoDolphin"/><meta name="mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="white"/><meta name="theme-color" content="#F4F5F9"/><link rel="apple-touch-icon" sizes="192x192" href="/assets/homescreen_icon/homescreen_192.png"/><link rel="manifest" href="/manifest.json"/><link rel="shortcut icon" href="/favicon.ico"/><link href="https://static-assets.jimstatic.com/cms/static/jimdo.10b603da32ddedea6efd.css" rel="stylesheet"/><link href="https://static-assets.jimstatic.com/cms/static/9469.58215160f23995e4f25e.css" rel="stylesheet"/><title>Jimdo</title><script>window.__dolphin_environment__ = 'prod';
-            window.__auth_proxy_override_url__ =
-                '';
-            window.__version__ = '3f367ea';</script><script>if (
-                ['stage', 'deployedbranch'].includes(
-                    'prod'
-                )
-            ) {
-                (function (m, a, z, e) {
-                    var s, t;
-                    try {
-                        t = m.sessionStorage.getItem('maze-us');
-                    } catch (err) {}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elevated Smart Homes</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
 
-                    if (!t) {
-                        t = new Date().getTime();
-                        try {
-                            m.sessionStorage.setItem('maze-us', t);
-                        } catch (err) {}
-                    }
+<body>
 
-                    s = a.createElement('script');
-                    s.src = z + '?apiKey=' + e;
-                    s.async = true;
-                    a.getElementsByTagName('head')[0].appendChild(s);
-                    m.mazeUniversalSnippetApiKey = e;
-                })(
-                    window,
-                    document,
-                    'https://snippet.maze.co/maze-universal-loader.js',
-                    '66da5140-8f9b-4b8a-a35d-4333f059231b'
-                );
-            }</script></head><body><div id="root"></div><script src="https://static-assets.jimstatic.com/cms/static/11df6417b0e36ae6b35f.js"></script><script src="https://static-assets.jimstatic.com/cms/static/b78c44dd0f84fdc64fc4.js"></script><script src="https://static-assets.jimstatic.com/cms/static/6ed4ce7702a27db4e7ce.js"></script><script src="https://static-assets.jimstatic.com/cms/static/48c33b0bee6f0a212ccf.js"></script><script src="https://static-assets.jimstatic.com/cms/static/2c25b7cd1e2f690bf8dc.js"></script><script>(function () {
-                var id = 'icgMT3yermnaEtn3GLLpiournPy9OfHoLfNQ9yom';
-                var js = document.createElement('script');
-                js.setAttribute('type', 'text/javascript');
-                js.setAttribute('src', 'https://deploy.mopinion.com/js/pastease.js');
-                js.async = true;
-                document.getElementsByTagName('head')[0].appendChild(js);
-                var t = setInterval(function () {
-                    try {
-                        Pastease.load(id);
-                        clearInterval(t);
-                    } catch (e) {}
-                }, 50);
-            })();</script></body></html>
+  <!-- Header / Menu -->
+  <header>
+    <div class="nav-container">
+      <div class="logo">
+        <a href="./index.html#home">
+          <img src="./img/esh.png" width="160" height="72">
+        </a>
+      </div>
+      <div class="nav-right">
+        <a href="./index.html#contact" class="get-in-touch-btn">Get in touch</a>
+        <div class="hamburger" id="hamburger">&#9776;</div>
+        <nav id="nav-menu">
+          <ul>
+            <li><a href="./index.html#about-us">About Us</a></li>
+            <li><a href="./index.html#services">Services</a></li>
+            <li><a href="./index.html#the-process">The Process</a></li>
+            <li><a href="./index.html#our-approach">Our Approach</a></li>
+            <li><a href="./index.html#integrations">Integrations</a></li>
+            <li><a href="./index.html#testimonials">Testimonials</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main / Welcome -->
+  <section class="parallax main" id="home">
+    <div class="content">
+      <h1>Elevated Smart Homes</h1>
+      <p>Brings the future to your doorstep. Discover smart living that adapts to you.</p>
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section class="normal" id="about-us">
+    <div class="normal-section">
+      <h2 class="section-title">🏠 About Us</h2>
+      <p><strong>Elevated Smart Homes</strong> integrates intelligent technologies into everyday life, creating
+        seamless, secure, and personalized home experiences. Whether it's lighting, climate, or security, the goal is
+        simple: comfort, control, and peace of mind.</p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="parallax services-bg" id="services">
+    <div class="content">
+      <h2>Our Services</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Smart Lighting</h3>
+          <p>Control your lights with ease while saving energy and setting the mood.</p>
+        </div>
+        <div class="service">
+          <h3>Climate Control</h3>
+          <p>Keep every room perfectly comfortable, automatically.</p>
+        </div>
+        <div class="service">
+          <h3>Security Systems</h3>
+          <p>Protect what matters most with intelligent surveillance and alerts.</p>
+        </div>
+        <div class="service">
+          <h3>Network</h3>
+          <p>Design reliable WiFi, Zigbee, Z-Wave, BLE and Matter networks with full coverage.</p>
+        </div>
+      </div>
+      <p>... And more!</p>
+    </div>
+  </section>
+
+  <!-- 3-Step Process -->
+  <section class="normal" id="the-process">
+    <div class="normal-section">
+      <h2 class="section-title">🚀 The Simple 3-Step Process</h2>
+      <div class="two-column-container">
+        <div class="column-left">
+          <div class="image-placeholder">
+            <img src="./img/sec4.jpg" alt="Smart home collage">
+          </div>
+        </div>
+        <div class="column-right">
+          <ul>
+            <li><strong>1. Consultation:</strong> Learning your needs and explore ideas together.</li>
+            <li><strong>2. Installation:</strong> Designing and set up your customized smart system.</li>
+            <li><strong>3. Guidance:</strong> Teaching you how to use your new tech with confidence.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="parallax why-bg" id="our-approach">
+    <div class="content">
+      <h2>Why Choose Elevated Smart Homes?</h2>
+      <ul>
+        <li><strong>Customized Solutions:</strong> Every home is unique.</li>
+        <li><strong>Professional Installation:</strong> No stress. Just results.</li>
+        <li><strong>Ongoing Support:</strong> Elevated Smart Home is always one message away.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Beyond Homes -->
+  <section class="normal" id="integrations">
+    <div class="normal-section">
+      <h2 class="section-title">🌐 Beyond Homes: Smart Solutions for Every Space</h2>
+      <div class="two-column-container">
+        <div class="column-left">
+          <p>Elevated Smart Home expertise extends far beyond residential spaces. From dynamic <strong>offices</strong>
+            and inspiring
+            <strong>studios</strong> to welcoming <strong>vacation rentals</strong> and even specialized environments
+            like <strong>greenhouses with intelligent plant monitoring</strong>, vibrant <strong>aquariums and
+              terrariums</strong> and secure <strong>shops with comprehensive monitoring and access control</strong>.
+          </p>
+          <p>Elevated Smart Homes brings the power of smart solutions to <strong>every environment</strong>. Let's
+            create spaces that are
+            not just automated, but truly <strong>intuitive, efficient, and inspiring</strong>.</p>
+        </div>
+        <div class="column-right">
+          <div class="image-placeholder">
+            <img src="./img/sec6.jpg" alt="Smart home collage">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="parallax testimonials-bg" id="testimonials">
+    <div class="content">
+      <h2>What Our Clients (Would) Say</h2>
+      <blockquote>
+        "The team brought our ideas to life. Now our home feels futuristic and cozy at the same time."
+        <cite>- Alex R.</cite>
+      </blockquote>
+      <blockquote>
+        "They explained everything clearly and gave us full control. Couldn’t be happier."
+        <cite>- Jamie L.</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+  <section class="normal" id="contact">
+    <div class="normal-section">
+      <h2 class="section-title">📱Contact Us</h2>
+      <p>Got a smart home idea? Let's to hear it. Let’s build it together. Connect instantly!</p>
+      <div class="social-contact-container">
+        <a href="https://wa.me/YOUR_WHATSAPP_NUMBER" target="_blank" class="social-button whatsapp-button">
+          <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+        </a>
+        <a href="https://www.instagram.com/YOUR_INSTAGRAM_USERNAME" target="_blank"
+          class="social-button instagram-button">
+          <i class="fab fa-instagram"></i> Message on Instagram
+        </a>
+      </div>
+      <p class="contact-email">Prefer email? Reach out at <a
+          href="mailto:elevatedsmarthomes@proton.me">elevatedsmarthomes@proton.me</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-main">
+      <p>&copy; 2025 Elevated Smart Homes</p>
+      <p>A project by Juri Calleri - Crafted with AI & open source ❤️</p>
+    </div>
+
+    <div class="footer-legal">
+      <p><strong><a href="./impressum.html">Impressum</a> | <a href="./terms-and-conditions.html">Terms & Condition</a> | <a href="./privacy-policy.html">Cookie & Privacy Policy</a></strong></p>
+    </div>
+  </footer>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const navMenu = document.getElementById('nav-menu');
+
+  hamburger.addEventListener('click', () => {
+    navMenu.classList.toggle('show');
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!hamburger.contains(e.target) && !navMenu.contains(e.target)) {
+      navMenu.classList.remove('show');
+    }
+  });
+</script>
+
+<!-- Scroll to Top Button -->
+<button id="scrollTopBtn" title="Back to top">↑</button>
+
+<script>
+  const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+  window.onscroll = function () {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      scrollTopBtn.style.display = "block";
+    } else {
+      scrollTopBtn.style.display = "none";
+    }
+  };
+
+  scrollTopBtn.onclick = function () {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+</script>
+
+</body>
+
+</html>
